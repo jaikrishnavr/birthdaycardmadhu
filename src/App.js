@@ -15,7 +15,7 @@ function App() {
     
     <div className="App">
 <>
-{loading ? <Loadingscreen/> : <Home/> }
+{loading ? <Loadingscreen/> : <Home /> }
 </>
      
     </div>

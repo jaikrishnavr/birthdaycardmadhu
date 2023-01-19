@@ -15,6 +15,23 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link
+      href="https://unpkg.com/video.js@7/dist/video-js.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+
+    <!-- City -->
+    <link
+      href="https://unpkg.com/@videojs/themes@1/dist/city/index.css"
+      rel="stylesheet"
+    />
+
+    <!-- Then, in the player -->
+    <video class="video-js vjs-theme-city" ...></video>
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
