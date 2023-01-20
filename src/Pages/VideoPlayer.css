@@ -23,7 +23,7 @@
   
   .video {
     width: 90%;
-    height: 90%;
+    height: 50%;
     object-fit: cover;
     border-radius: 10px;
   }
