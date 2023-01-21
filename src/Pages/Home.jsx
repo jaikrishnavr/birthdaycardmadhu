@@ -14,6 +14,10 @@ const home = () => {
  height='50%' 
  type='video/mp4' 
 />
+
+<br/>
+<br/>
+<br/>
     </div>
 
     
