@@ -4,7 +4,7 @@ import VideoPlayer from './Videoplayer'
 
 const home = () => {
   return (
-    <div><h1 class="text">Happy Birthday <h1 className='h1-span'>Shalini</h1> </h1>
+    <div><h5 class="text">Happy Birthday <h5 className='h1-span'>Shalini</h5> </h5>
     
   <VideoPlayer 
  src='https://www.w3schools.com/html/mov_bbb.mp4' 
