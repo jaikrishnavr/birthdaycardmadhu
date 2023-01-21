@@ -3,6 +3,7 @@ import Loadingscreen from './Pages/Loadingscreen';
 import Home from './Pages/Home';
 import React, { useState } from "react";
 
+
 function App() {
 
 
@@ -12,12 +13,13 @@ function App() {
     setLoading(false);
   }, 10000)
   return (
-    
+
     <div className="App">
-<>
-{loading ? <Loadingscreen/> : <Home /> }
-</>
-     
+      <>
+
+        {loading ? <Loadingscreen /> : <Home />}
+      </>
+
     </div>
   );
 }
